@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rental Mobil</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+ 
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(10, 10, 141);">
+    <div class="container">
+      <!-- Menambahkan logo ke navbar -->
+      <a class="navbar-brand d-flex align-items-center text-white" href="#">
+        <img src="img/Logo.png" alt="Logo" style="width: 60px; height: 60px; margin-right: 10px;"> <!-- Sesuaikan path dan ukuran gambar -->
+        RentCar Pekalongan
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav m-auto my-2 my-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Our Service.html">Our Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Our Team.html">Our Team</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+
+  <header class="text-white text-center py-5" id="home" style="margin-top: 80px; background-image: url('img/audisi.jpeg'); background-size: cover; background-position: center;">
+    <div class="container">
+      <h1>Selamat Datang di Rental Mobil Terbaik</h1>
+      <p>Solusi Transportasi Praktis, Nyaman, dan Terpercaya</p>
+    </div>
+  </header>
+
+  <!-- Blog Section with 10 Unique Layouts -->
+  <section id="blog" class="py-5 bg-light">
+    <div class="container">
+      <!-- Blog Post 1: Media Object -->
+      <div class="container my-4">
+        <div class="media mb-4 d-flex align-items-center justify-content-center p-3" style="background-color:  rgb(10, 10, 141); border-radius: 8px;">
+            <img src="img/panduan.jpeg" class="align-self-start mr-3" alt="Blog 1" style="width: 200px; height: auto;">
+            <div class="media-body text-center text-white">
+                <h5 class="mt-0">Panduan Memilih Mobil untuk Kebutuhan Rental</h5>
+                <p>Artikel ini memberikan panduan memilih mobil yang sesuai dengan kebutuhan penyewa.</p>
+                <a href="Panduan.html" class="btn btn-primary btn-sm">Baca Selengkapnya</a>
+            </div>
+        </div>
+    </div>
+    
+      <!-- Blog Post 2: List Group -->
+      <div class="container my-5">
+        <h2 class="text-center mb-4">Tips Menghemat Biaya Sewa Mobil</h2>
+        <div class="card p-4" style="background-color: rgb(10, 10, 141); border-radius: 8px;">
+            <div class="accordion" id="tipsAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTips">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTips" aria-expanded="true" aria-controls="collapseTips">
+                            Klik untuk melihat tips!
+                        </button>
+                    </h2>
+                    <div id="collapseTips" class="accordion-collapse collapse" aria-labelledby="headingTips" data-bs-parent="#tipsAccordion">
+                        <div class="accordion-body">
+                            <p>Berikut adalah beberapa tips yang dapat membantu Anda menghemat biaya saat menyewa mobil:</p>
+                            <ul class="list-group mb-3">
+                                <li class="list-group-item animated-item">1. <strong>Bandingkan Harga</strong>: Selalu bandingkan harga dari beberapa perusahaan penyewaan mobil sebelum memutuskan untuk menyewa.</li>
+                                <li class="list-group-item animated-item">2. <strong>Pesan Lebih Awal</strong>: Memesan mobil jauh-jauh hari dapat memberikan Anda harga yang lebih baik.</li>
+                                <li class="list-group-item animated-item">3. <strong>Pilih Mobil yang Sesuai</strong>: Pilih mobil yang sesuai dengan kebutuhan Anda. Mobil yang lebih kecil biasanya lebih hemat bahan bakar dan biaya sewa.</li>
+                                <li class="list-group-item animated-item">4. <strong>Periksa Promosi</strong>: Cek apakah ada promosi atau diskon yang ditawarkan oleh perusahaan penyewaan.</li>
+                                <li class="list-group-item animated-item">5. <strong>Pertimbangkan Asuransi</strong>: Pastikan Anda memahami asuransi yang ditawarkan. Terkadang, asuransi dari kartu kredit Anda dapat mencakup sewa mobil.</li>
+                                <li class="list-group-item animated-item">6. <strong>Kembalikan Mobil Tepat Waktu</strong>: Mengembalikan mobil lebih awal atau terlambat dapat menambah biaya sewa. Pastikan untuk mematuhi waktu pengembalian.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+      <!-- Blog Post 3: Featured Image with Description -->
+      <div class="mb-4 d-flex align-items-center justify-content-center p-3" style="background-color: rgb(10, 10, 141); border-radius: 8px;">
+        <img src="img/berbicara.jpeg" class="img-fluid" alt="Blog 3" style="width: 200px; height: auto;">
+        <div class="ms-3 text-white"> <!-- Menambahkan margin left pada container teks -->
+            <h5 class="mt-3">Manfaat Menyewa Mobil Daripada Membeli</h5>
+            <p>Berikut adalah beberapa manfaat menyewa mobil:</p>
+            <ul>
+                <li><strong>Biaya Awal yang Lebih Rendah:</strong> Menyewa mobil tidak memerlukan pembayaran awal yang besar seperti saat membeli mobil. Anda hanya membayar biaya sewa yang biasanya lebih terjangkau.</li>
+                <li><strong>Fleksibilitas:</strong> Penyewaan mobil memberikan fleksibilitas untuk memilih jenis mobil yang sesuai dengan kebutuhan Anda untuk setiap perjalanan. Misalnya, Anda dapat menyewa mobil kecil untuk perjalanan singkat dan mobil yang lebih besar untuk liburan keluarga.</li>
+                <li><strong>Tidak Ada Biaya Pemeliharaan:</strong> Ketika Anda menyewa, semua biaya pemeliharaan dan perawatan kendaraan biasanya ditanggung oleh perusahaan penyewaan. Ini berarti Anda tidak perlu khawatir tentang biaya perbaikan atau servis berkala.</li>
+                <li><strong>Tidak Ada Depresiasi:</strong> Mobil baru kehilangan nilai dengan cepat. Dengan menyewa, Anda tidak akan merasakan dampak depresiasi mobil. Setelah masa sewa berakhir, Anda hanya mengembalikan mobil tanpa perlu menjualnya.</li>
+                <li><strong>Asuransi dan Perlindungan:</strong> Banyak perusahaan penyewaan mobil menawarkan asuransi yang mencakup kerusakan dan kecelakaan. Ini dapat memberikan perlindungan tambahan tanpa perlu mengambil polis asuransi terpisah.</li>
+            </ul>
+        </div>
+    </div>
+    
+
+      
+
+      <!-- Blog Post 6: Highlight Box -->
+      <div class=" text-white p-4 mb-4" style="background-color:  rgb(10, 10, 141);">
+        <h5>Keuntungan Sewa Mobil untuk Perjalanan Bisnis</h5>
+        <p>Menjelaskan mengapa menyewa mobil menjadi solusi efisien untuk perjalanan bisnis.</p>
+        <div class="d-flex justify-content-center">
+          <a href="Bisnis.html" class="btn btn-primary  btn-sm">Baca Selengkapnya</a>
+        </div>
+        
+      </div>
+
+      <!-- Blog Post 7: Inline Image with Text -->
+      <!-- Blog Post 7: Inline Image with Text -->
+<!-- Blog Post 7: Inline Image with Text -->
+<div class="container my-5">
+  <div class="card border-0 shadow-lg">
+      <div class="row g-0">
+          <div class="col-lg-5">
+              <div class="image-container" style="height: 100%; overflow: hidden;">
+                  <img src="img/daihatsu.jpeg" class="img-fluid h-100 w-100 object-fit-cover"
+                       alt="Perawatan Mobil"
+                       style="animation: moveSideways 2s linear infinite;">
+
+                  <!-- Inline Animation Keyframes -->
+                  <style>
+                      @keyframes moveSideways {
+                          0% { transform: translateX(0); }
+                          50% { transform: translateX(10px); }
+                          100% { transform: translateX(0); }
+                      }
+                  </style>
+              </div>
+          </div>
+          <div class="col-lg-7 d-flex flex-column justify-content-center bg-light p-6">
+              <div class="content-container" style="background-color: rgb(10, 10, 141);">
+                  <h2 class="mb-3 text-dark text-white text-center">Perawatan Optimal Mobil Rental</h2>
+                  <p class="text-white text-center">Perawatan mobil rental melibatkan langkah-langkah rutin untuk memastikan kendaraan tetap dalam kondisi terbaik. Dari pengecekan mesin, pembersihan interior dan eksterior, hingga penggantian komponen seperti filter dan oli secara terjadwal, semua aspek diperhatikan.</p>
+                  <p class="text-white text-center">Perusahaan rental biasanya memiliki tim mekanik atau bekerja sama dengan bengkel terpercaya untuk menjaga kualitas kendaraan. Hal ini tidak hanya menjaga kenyamanan tetapi juga keamanan pengguna mobil.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+    
+
+      <!-- Blog Post 8: Overlay Image with Text -->
+           <!-- Blog Post 8: Two-Column Layout -->
+           <div class="container my-5">
+            <div class="row">
+                <div class="col-md-12 text-center mb-4">
+                    <img src="img/Tanya.jpeg" class="img-fluid rounded" alt="Blog 8" style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="col-md-12 text-center">
+                    <h5 class="text-primary">Mobil Populer untuk Liburan Keluarga</h5>
+                    <p class="text-muted">Artikel ini merekomendasikan mobil-mobil terbaik untuk kebutuhan liburan keluarga yang nyaman, aman, dan muat untuk semua anggota keluarga. Temukan berbagai jenis mobil yang cocok untuk perjalanan panjang dan kapasitas penumpang yang besar.</p>
+                    <a href="mobil.html" class="btn btn-outline-success">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+        
+        
+
+     
+      <!-- Blog Post 10: Image with Caption -->
+      <div class="container my-5" >
+        <h2 class="text-center mb-4">Perbandingan Harga Rental di Kota-Kota Besar</h2>
+        <div class="row" >
+            <div class="col-md-12" style="background-color: rgb(10, 10, 141);">
+                <div class="p-4 border rounded bg-light">
+                    <h5 class="mb-3">Analisis Harga Rental Mobil</h5>
+                    <p class="text-muted">
+                        Dalam artikel ini, kami membahas perbandingan harga rental mobil di berbagai kota besar di Indonesia, termasuk Jakarta, Surabaya, dan Bandung. Kami menganalisis faktor-faktor yang mempengaruhi harga, seperti jenis mobil, durasi sewa, dan lokasi.
+                    </p>
+                    <p class="text-muted">
+                        Dengan memahami perbandingan harga ini, Anda dapat membuat keputusan yang lebih baik dalam memilih layanan rental mobil yang sesuai dengan anggaran dan kebutuhan Anda.
+                    </p>
+                    <h6 class="mt-4">Perbandingan Harga Rental Mobil</h6>
+                    <p class="text-muted">
+                        Di Jakarta, harga rental mobil berkisar antara Rp 300.000 hingga Rp 1.200.000 per hari tergantung pada jenis mobil dan fasilitas yang ditawarkan. Sementara itu, di Surabaya, Anda dapat menemukan harga mulai dari Rp 250.000 hingga Rp 800.000. Di Bandung, harga rental mobil juga bervariasi antara Rp 200.000 hingga Rp 900.000 per hari. 
+                    </p>
+                    <p class="text-muted">
+                        Untuk menghemat biaya, disarankan untuk membandingkan harga dari beberapa penyedia jasa rental, memanfaatkan promo atau diskon, dan mempertimbangkan untuk menyewa mobil dalam jangka waktu yang lebih panjang. Selain itu, pastikan untuk memperhatikan syarat dan ketentuan yang berlaku untuk menghindari biaya tambahan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light text-center py-4">
+    <div class="container">
+        <h5>Kontak Kami</h5>
+        <p>
+            <strong>Telepon:</strong> +62 878 4863 7498<br>
+            <strong>Email:</strong> ilfansafianar30@gmail.com<br>
+            <strong>Alamat:</strong> Jl.Desa Rowoyoso, Kota Pekalongan
+        </p>
+        <h5>Ikuti Kami</h5>
+        <div>
+            <a href="https://www.facebook.com" class="text-light mx-2" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" class="text-light mx-2" target="_blank">Instagram</a>
+            <a href="https://www.twitter.com" class="text-light mx-2" target="_blank">Twitter</a>
+        </div>
+        <p class="mt-3">&copy; 2023 RentCar Pekalongan. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<button onclick="scrollToTop()" id="btnOnTop" style="position: fixed;
+bottom: 20px;
+right: 20px;
+display: none; /* Awalnya disembunyikan */
+z-index: 1000;" class="btn btn-primary">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+
+  <!-- Bootstrap JS -->
+  <script>
+    // Menampilkan tombol saat pengguna menggulir ke bawah
+    window.onscroll = function() {
+      const btn = document.getElementById('btnOnTop');
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        btn.style.display = 'block';
+      } else {
+        btn.style.display = 'none';
+      }
+    };
+  
+    // Fungsi untuk menggulir ke atas
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

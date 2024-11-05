@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rental Mobil</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+ 
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(10, 10, 141);">
+    <div class="container">
+      <!-- Menambahkan logo ke navbar -->
+      <a class="navbar-brand d-flex align-items-center text-white" href="#">
+        <img src="img/Logo.png" alt="Logo" style="width: 60px; height: 60px; margin-right: 10px;"> <!-- Sesuaikan path dan ukuran gambar -->
+        RentCar Pekalongan
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav m-auto my-2 my-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Our Service.html">Our Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Our Team.html">Our Team</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<div class="container mt-5">
+  <ul class="list-group" style="margin-top: 100px;">
+    <li class="list-group-item">
+      <a href="https://www.instagram.com/fannnn_s.a" target="_blank" class="text-decoration-none">
+        <img src="img/instagram.png" alt="Instagram" style="width: 40px; height: 40px;">
+        <span class="ms-2">fannnn_s.a</span>
+      </a>
+    </li>
+    <li class="list-group-item">
+      <a href="https://www.facebook.com/ilfan_safian_ar" target="_blank" class="text-decoration-none">
+        <img src="img/facebook.png" alt="Facebook" style="width: 40px; height: 40px;">
+        <span class="ms-2">ilfan safian ar</span>
+      </a>
+    </li>
+    <li class="list-group-item">
+      <a href="https://wa.me/6287848637498" target="_blank" class="text-decoration-none">
+        <img src="img/whatsApp.png" alt="WhatsApp" style="width: 40px; height: 40px;">
+        <span class="ms-2">0878-4863-7498</span>
+      </a>
+    </li>
+    <li class="list-group-item">
+      <a href="mailto:ilfansafianar30@gmail.com" class="text-decoration-none">
+        <img src="img/gmail.png" alt="Email" style="width: 40px; height: 40px;">
+        <span class="ms-2">ilfansafianar30@gmail.com</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div class="container mt-4">
+  <div class="row align-items-center">
+    <div class="col-lg-4 col-md-12">
+      <h4>Lokasi RentCar Pekalongan</h4>
+      <p>Jl. Rowoyoso, Kec. Wonokerto, Kabupaten Pekalongan, Jawa Tengah 51153</p>
+    </div>
+    <div class="col-lg-8 col-md-12">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.077826560201!2d109.60896000000001!3d-6.881280000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7027afa5220c11%3A0xd4fa68a8be814c12!2sJl.%20Rowoyoso%2C%20Kec.%20Wonokerto%2C%20Kabupaten%20Pekalongan%2C%20Jawa%20Tengah%2051153!5e0!3m2!1sid!2sid!4v1728741317512!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="form-card" style=" margin: 50px auto; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background:rgb(10, 10, 141);">
+      <div class="form-title text-white">Saran dan Kritik</div>
+      <div class="row">
+          <div class="col-md-6 form-column">
+              <form>
+                  <div class="mb-3 text-white">
+                      <label for="name" class="form-label">Nama</label>
+                      <input type="text" class="form-control" id="name" placeholder="Masukkan Nama Anda" required>
+                  </div>
+                  <div class="mb-3 text-white">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Masukkan Email Anda" required>
+                  </div>
+                  <div class="mb-3 text-white">
+                      <label for="phone" class="form-label">No. Telepon</label>
+                      <input type="tel" class="form-control" id="phone" placeholder="Masukkan No. Telepon Anda" required>
+                  </div>
+              </form>
+          </div>
+          <div class="col-md-6 form-column">
+              <form>
+                  <div class="mb-3 text-white">
+                      <label for="message" class="form-label">Saran/Kritik</label>
+                      <textarea class="form-control" id="message" rows="6" placeholder="Tuliskan saran atau kritik Anda" required></textarea>
+                  </div>
+                  <div class="d-grid gap-2 ">
+                      <button type="submit" class="btn btn-light">Kirim</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="registration-container" style=" margin: 50px auto; padding: 30px;  border-radius: 10px;  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  background: rgb(10, 10, 141)">
+      <div class="registration-title text-white" style=" font-size: 2rem;  font-weight: bold;  margin-bottom: 20px;  text-align: center;">Pendaftaran Sewa Mobil</div>
+      <form id="rental-form">
+          <table class="table table-borderless">
+              <tbody>
+                  <tr>
+                      <td><label for="fullName" class="form-label">Nama Lengkap</label></td>
+                      <td><input type="text" class="form-control" id="fullName" placeholder="Masukkan Nama Lengkap" required></td>
+                  </tr>
+                  <tr>
+                      <td><label for="email" class="form-label">Email</label></td>
+                      <td><input type="email" class="form-control" id="email" placeholder="Masukkan Email" required></td>
+                  </tr>
+                  <tr>
+                      <td><label for="phone" class="form-label">Nomor Telepon</label></td>
+                      <td><input type="text" class="form-control" id="phone" placeholder="Masukkan Nomor Telepon" required></td>
+                  </tr>
+                  <tr>
+                      <td><label for="pickupDate" class="form-label">Tanggal Pengambilan</label></td>
+                      <td><input type="date" class="form-control" id="pickupDate" required></td>
+                  </tr>
+                  <tr>
+                      <td><label for="returnDate" class="form-label">Tanggal Pengembalian</label></td>
+                      <td><input type="date" class="form-control" id="returnDate" required></td>
+                  </tr>
+                  <tr>
+                      <td><label for="carType" class="form-label">Jenis Mobil</label></td>
+                      <td>
+                          <select class="form-select" id="carType" required>
+                              <option value="">Pilih Jenis Mobil</option>
+                              <option value="Sedan">Sedan</option>
+                              <option value="SUV">SUV</option>
+                              <option value="MPV">MPV</option>
+                              <option value="Pickup">Pickup</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><label for="message" class="form-label">Pesan Tambahan</label></td>
+                      <td><textarea class="form-control" id="message" rows="3" placeholder="Tuliskan pesan tambahan (opsional)"></textarea></td>
+                  </tr>
+              </tbody>
+          </table>
+          <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-custom" style="background-color: #007bff;
+            color: white;">Daftar Sewa Mobil</button>
+          </div>
+      </form>
+  </div>
+</div>
+
+<div class="container text-center">
+  <h1 class="mt-5">Rental Mobil Pekalongan</h1>
+  <p>Selamat datang! Jika Anda memiliki pertanyaan, silakan gunakan live chat.</p>
+  <button id="chat-toggle" class="btn btn-primary">Buka Live Chat</button>
+</div>
+
+<div class="chat-container d-flex justify-content-center mb-4" id="chat-container">
+  <div class="chat-box" style=" width: 400px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden;">
+    <div class="chat-header" style="background-color: #007bff; color: #fff; padding: 10px; text-align: center;">Live Chat</div>
+    <div class="chat-messages" style="height: 300px; overflow-y: scroll; padding: 10px; border-bottom: 1px solid #ccc;" id="chat-messages"></div>
+    <div class="chat-input">
+      <input type="text" id="chat-input" placeholder="Ketik pesan..." />
+      <button id="send-button" class="btn btn-primary">Kirim</button>
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="bg-dark text-light text-center py-4">
+  <div class="container">
+      <h5>Kontak Kami</h5>
+      <p>
+          <strong>Telepon:</strong> +62 878 4863 7498<br>
+          <strong>Email:</strong> ilfansafianar30@gmail.com<br>
+          <strong>Alamat:</strong> Jl.Desa Rowoyoso, Kota Pekalongan
+      </p>
+      <h5>Ikuti Kami</h5>
+      <div>
+          <a href="https://www.facebook.com" class="text-light mx-2" target="_blank">Facebook</a>
+          <a href="https://www.instagram.com" class="text-light mx-2" target="_blank">Instagram</a>
+          <a href="https://www.twitter.com" class="text-light mx-2" target="_blank">Twitter</a>
+      </div>
+      <p class="mt-3">&copy; 2023 RentCar Pekalongan. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<button onclick="scrollToTop()" id="btnOnTop" style="position: fixed;
+bottom: 20px;
+right: 20px;
+display: none; /* Awalnya disembunyikan */
+z-index: 1000;" class="btn btn-primary">
+  <i class="fas fa-arrow-up"></i>
+</button>
+<script>
+  // Array contoh pesan yang akan muncul secara berkala
+  const chatMessages = [
+    "Halo! Ada yang bisa saya bantu?",
+    "Silakan tanya jika ada pertanyaan.",
+    "Jangan ragu untuk bertanya, kami di sini untuk membantu.",
+    "Apakah Anda tertarik dengan penawaran terbaru kami?",
+    "Terima kasih sudah menghubungi kami!",
+    "Apakah ada hal lain yang ingin Anda ketahui?"
+  ];
+
+  // Fungsi untuk menambahkan pesan ke area chat
+  function addMessage(message, isAuto = true) {
+    const chatBox = document.getElementById('chat-messages');
+    const messageElement = document.createElement('div');
+    messageElement.classList.add('message', 'bg-light', 'p-2', 'rounded', 'mb-2');
+    messageElement.textContent = message;
+
+    if (!isAuto) {
+      messageElement.style.backgroundColor = "#cce5ff"; // Warna berbeda untuk pesan pengguna
+    }
+
+    chatBox.appendChild(messageElement);
+    chatBox.scrollTop = chatBox.scrollHeight; // Scroll ke bawah otomatis
+  }
+
+  // Kirim pesan pengguna saat tombol 'Kirim' diklik
+  document.getElementById('send-button').addEventListener('click', function() {
+    const inputField = document.getElementById('chat-input');
+    const userMessage = inputField.value.trim();
+
+    if (userMessage !== '') {
+      addMessage(userMessage, false);
+      inputField.value = ''; // Kosongkan input
+    }
+  });
+
+  // Kirim pesan pengguna saat menekan Enter
+  document.getElementById('chat-input').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      e.preventDefault(); // Mencegah default behavior
+      document.getElementById('send-button').click();
+    }
+  });
+
+  // Tambahkan pesan secara berkala setiap 3 detik
+  let messageIndex = 0;
+  setInterval(function() {
+    if (messageIndex < chatMessages.length) {
+      addMessage(chatMessages[messageIndex]);
+      messageIndex++;
+    }
+  }, 3000);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  document.getElementById('send-button').addEventListener('click', function() {
+    const inputField = document.getElementById('chat-input');
+    const chatMessages = document.getElementById('chat-messages');
+    const messageText = inputField.value.trim();
+
+    if (messageText !== '') {
+      // Buat elemen pesan baru
+      const messageElement = document.createElement('div');
+      messageElement.classList.add('message', 'bg-light', 'p-2', 'rounded');
+      messageElement.textContent = messageText;
+
+      // Tambahkan pesan ke area pesan
+      chatMessages.appendChild(messageElement);
+      chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll ke bawah
+
+      // Kosongkan input field
+      inputField.value = '';
+    }
+  });
+
+  // Tambahkan fungsi untuk mengirim pesan saat menekan Enter
+  document.getElementById('chat-input').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      e.preventDefault(); // Mencegah default behavior
+      document.getElementById('send-button').click();
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  // Menampilkan tombol saat pengguna menggulir ke bawah
+  window.onscroll = function() {
+    const btn = document.getElementById('btnOnTop');
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      btn.style.display = 'block';
+    } else {
+      btn.style.display = 'none';
+    }
+  };
+
+  // Fungsi untuk menggulir ke atas
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
